@@ -1,17 +1,6 @@
 <?php include_once("cabeca.php"); ?>
   <!-- Bootstrap CSS-->
-  <link rel="stylesheet" href="<?php echo $base_url ?>assets/vendor/bootstrap/css/bootstrap.min.css">
-    <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="<?php echo $base_url ?>assets/vendor/font-awesome/css/font-awesome.min.css">
-    <!-- Custom Font Icons CSS-->
-    <link rel="stylesheet" href="<?php echo $base_url ?>assets/css/font.css">
-    <!-- Google fonts - Muli-->
-    <link rel="stylesheet" href="<?php echo $base_url ?>assets/https://fonts.googleapis.com/css?family=Muli:300,400,700">
-    <!-- theme stylesheet-->
-    <link rel="stylesheet" href="<?php echo $base_url ?>assets/css/style.default.css" id="theme-stylesheet">
-    <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="<?php echo $base_url ?>assets/css/custom.css">
-
+  
 <section class="no-padding-bottom">
           <div class="container-fluid">
             <div class="row">
@@ -163,11 +152,3 @@
 
 <?php include_once("footer.php"); ?>
  <!-- JavaScript files-->
-     <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/popper.js/umd/popper.min.js"> </script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/vendor/jquery.cookie/jquery.cookie.js"> </script>
-    <script src="assets/vendor/chart.js/Chart.min.js"></script>
-    <script src="assets/vendor/jquery-validation/jquery.validate.min.js"></script>
-    <script src="assets/js/charts-home.js"></script>
-    <script src="assets/js/front.js"></script>

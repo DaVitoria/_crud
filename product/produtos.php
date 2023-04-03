@@ -1,25 +1,8 @@
 <?php
+
 include_once("../cabeca.php");  ?>
 <?php include_once("../users/conexao.php");  ?>
 
-<html lang="pt">
-   <head>
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Da Vick Cland's</title>
-      <!-- Favicon -->
-      <link rel="shortcut icon" href="<?php echo $base_url ?>../assets/img/favicon.ico" />
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="<?php echo $base_url ?>../assets/cssi/bootstrap.min.css">
-      <!-- Typography CSS -->
-      <link rel="stylesheet" href="<?php echo $base_url ?>../assets/cssi/typography.css">
-      <!-- Style CSS -->
-      <link rel="stylesheet" href="<?php echo $base_url ?>../assets/cssi/style.css">
-      <!-- Responsive CSS -->
-      <link rel="stylesheet" href="<?php echo $base_url ?>../assets/cssi/responsive.css">
-   </head>
-   
    <body class="sidebar-main-active right-column-fixed">
       <!-- loader Start -->
       <div id="loading">
@@ -80,7 +63,7 @@ include_once("../cabeca.php");  ?>
                                        </td>
                                        <td>
                                        <a class="btn btn-sm btn-info " href="edit.php?id=<?php echo $value['id']; ?>"> Editar </a> -
-							                  <a class="btn btn-sm btn-danger " href="deleteQuery.php?id=<?php echo $value['id']; ?>">Apagar</a>
+							                  <a class="btn btn-sm btn-danger " href="product/deleteQuery.php?id=<?php echo $value['id']; ?>">Apagar</a>
                                        </td>
                                     </tr>
                                     <?php } ?>
@@ -160,7 +143,7 @@ include_once("../cabeca.php");  ?>
                
 
       
-            </div>
+            <!-- </div>
          </div>
    </body>
-</html>
+</html> -->

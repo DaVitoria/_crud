@@ -85,7 +85,7 @@
                                        </td>
                                        <td>
                                        <a class="btn btn-sm btn-info " href="edit.php?id=<?php echo $value['id']; ?>"> Editar </a> -
-							                  <a class="btn btn-sm btn-danger " href="deleteQuery.php?id=<?php echo $value['id']; ?>">Apagar</a>
+							                  <a class="btn btn-sm btn-danger " href="users/deleteQuery.php?id=<?php echo $value['id']; ?>">Apagar</a>
                                        </td>
                                     </tr>
                                     <?php } ?>
@@ -102,9 +102,8 @@
       </div>
       <!-- Wrapper END -->
        <!-- Footer -->
-<div>
+
 <?php include_once("../footer.php");  ?>
-</div>
       <!-- Footer END -->
     
       <!-- Optional JavaScript -->

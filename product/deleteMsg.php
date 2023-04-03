@@ -32,7 +32,7 @@
                             Usuario eliminado com sucessso!
                         </div>
                         <div class="text-center">
-                            <a href="produtos.php">
+                            <a href="product/produtos.php">
                                 <button type="button" class="btn btn-sm btn-primary"><i class="fa fa-arrow-left"></i>
                                     Voltar
                                 </button>
@@ -47,7 +47,7 @@
   <!-- /.content-wrapper -->
   
  
- <div>
+
  <?php include_once("../footer.php");  ?> 
- </div>               
+            
  

@@ -32,7 +32,7 @@
                             Usuario eliminado com sucessso!
                         </div>
                         <div class="text-center">
-                            <a href="table-editable.php">
+                            <a href="users/table-editable.php">
                                 <button type="button" class="btn btn-sm btn-primary"><i class="fa fa-arrow-left"></i>
                                     Voltar
                                 </button>
@@ -46,8 +46,7 @@
   </div>
   <!-- /.content-wrapper -->
   
- <div>
- <?php include_once("../footer.php");  ?> 
- </div>
+ 
                 
  
+  <?php include_once("../footer.php");  ?> 
