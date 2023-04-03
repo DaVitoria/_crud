@@ -102,8 +102,9 @@
       </div>
       <!-- Wrapper END -->
        <!-- Footer -->
-
+<div>
 <?php include_once("../footer.php");  ?>
+</div>
       <!-- Footer END -->
     
       <!-- Optional JavaScript -->

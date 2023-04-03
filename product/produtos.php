@@ -101,8 +101,10 @@ include_once("../cabeca.php");  ?>
 							<a class="btn btn-sm btn-danger " href="product/deleteQuery.php?id=<?php echo $value['id']; ?>">Apagar</a>
 						  </td> -->
        <!-- Footer -->
-
+<div>
 <?php include_once("../footer.php");  ?>
+</div>
+
       <!-- Footer END -->
     
       <!-- Optional JavaScript -->
