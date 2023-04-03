@@ -1,7 +1,7 @@
 <?php
 	include_once("conexao.php");
 	
-	$id = $_GET['id_user'];
+	$id = $_GET['id'];
 
 	/*$query = mysqli_query($conectar, "DELETE FROM user WHERE id = '$id'");
 	
@@ -12,11 +12,11 @@
 		*/
 		
 		
-		$stmt = $pdo->prepare("DELETE FROM users WHERE id_user = :id");
+		$stmt = $pdo->prepare("DELETE FROM users WHERE id = :id");
 		$stmt->bindValue(':id', $id); 
 
 		$stmt->execute();
-		return $stmt->rowCount();
+		//return $stmt->rowCount();
 	
-	//header("location: ./deleteMsg.php");
+	header("location: ./deleteMsg.php");
 ?>

@@ -50,7 +50,7 @@
                               <table class="table table-bordered table-responsive-md table-striped text-center">
                                  <thead>
                                     <tr>
-                                       <th>id_user</th>
+                                       <th>id</th>
                                        <th>Nome</th>
                                        <th>Nivel</th>
                                        <th>Curso</th>
@@ -62,7 +62,7 @@
                                     </tr>
                                  </thead>
                               <?php 
-                              $stmt=$pdo->prepare("SELECT *FROM users ORDER BY id_user ASC");
+                              $stmt=$pdo->prepare("SELECT *FROM users ORDER BY id ASC");
                               $stmt->execute();
                               $values = $stmt->fetchALL();
                               
@@ -72,7 +72,7 @@
 
                                  <tbody>
                                     <tr>
-                                       <td contenteditable="true"><?php echo $value['id_user'] ?></td>
+                                       <td contenteditable="true"><?php echo $value['id'] ?></td>
                                        <td contenteditable="true"><?php echo $value['nome'] ?></td>
                                        <td contenteditable="true"><?php echo $value['nivel'] ?></td>
                                        <td contenteditable="true"><?php echo $value['curso'] ?></td>
