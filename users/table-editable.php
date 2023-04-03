@@ -84,8 +84,8 @@
                                           <span class="table-down"><a href="#!" class="indigo-text"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></a></span>
                                        </td>
                                        <td>
-                                       <a class="btn btn-sm btn-info " href="edit.php?id=<?php echo $value['id_user']; ?>"> Editar </a> -
-							                  <a class="btn btn-sm btn-danger " href="deleteQuery.php?id=<?php echo $value['id_user']; ?>">Apagar</a>
+                                       <a class="btn btn-sm btn-info " href="edit.php?id=<?php echo $value['id']; ?>"> Editar </a> -
+							                  <a class="btn btn-sm btn-danger " href="deleteQuery.php?id=<?php echo $value['id']; ?>">Apagar</a>
                                        </td>
                                     </tr>
                                     <?php } ?>
